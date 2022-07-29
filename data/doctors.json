@@ -3,24 +3,28 @@
     "name": "Dr one ",
     "address": "toronto",
     "language": "hebrew",
-    "picture": "https://unsplash.com/photos/FVh_yqLR9eA"
+    "picture": "https://unsplash.com/photos/FVh_yqLR9eA",
+    "office": "Office one"
   },
   {
     "name": "Dr Two",
     "address": "waterloo",
     "language": "cantonese",
-    "picture": "https://unsplash.com/photos/7bMdiIqz_J4"
+    "picture": "https://unsplash.com/photos/7bMdiIqz_J4",
+    "office": "Office Two"
   },
   {
     "name": "Dr Three",
     "address": "vaughan",
     "language": "punjabi",
-    "picture": "https://unsplash.com/photos/pTrhfmj2jDA"
+    "picture": "https://unsplash.com/photos/pTrhfmj2jDA",
+    "office": "Office Three"
   },
   {
     "name": "Dr Four",
     "address": "markham",
     "language": "mandarin",
-    "picture": "https://unsplash.com/photos/ZCztndOWdjs"
+    "picture": "https://unsplash.com/photos/ZCztndOWdjs",
+    "office": "Office Four"
   }
 ]
