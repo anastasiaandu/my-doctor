@@ -10,4 +10,11 @@ My Doctor helps you find a doctor and book an appointment based on your abilitie
 1. React: JS library allowed to quickly add visual components that can be reused throughout the app. It allowed for nice rerendering as our app state changed. 
 2. Sass: Superset of CSS that easily helped break down styling with BEM convetion.
 
+# Project:
+### - Home Page
+![image](./screenshots/home.JPG)
+### - Find Doctor Page
+![image](./screenshots/doctor.JPG)
+
+
 Project completed in under 24 hrs. 
