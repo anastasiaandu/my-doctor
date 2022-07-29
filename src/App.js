@@ -1,13 +1,12 @@
 import './App.scss';
-//import Header from './components/Header/Header';
+import PageHeader from './components/PageHeader/PageHeader';
 
 function App() {
   return (
-    <div>
-      Hello
-      {/* <Header /> */}
-    </div>
-  );
+  <div>
+    <PageHeader />
+  </div>
+  )
 }
 
 export default App;

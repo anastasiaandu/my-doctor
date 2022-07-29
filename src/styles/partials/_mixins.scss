@@ -71,3 +71,9 @@
         @content;
     }
 }
+
+@mixin link {
+    text-decoration: none;
+    color: colors.$primary-black;
+    font-size: 1.3em;
+}
