@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
       {/* <DoctorCardComponent /> */}
+      {/* NAVBAR */}
       <InputComponent />
+      {/* FOOTER */}
     </div>
   );
 }
