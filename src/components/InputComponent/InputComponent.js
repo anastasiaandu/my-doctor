@@ -1,5 +1,7 @@
 import React from "react";
 import DoctorCardComponent from "../DoctorCardComponent/DoctorCardComponent";
+
+import doctorJson from "../../data/doctors.json";
 import "./InputComponent.scss";
 
 function InputComponent() {
