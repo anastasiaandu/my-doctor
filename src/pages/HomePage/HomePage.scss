@@ -1,7 +1,98 @@
-.home {
-    width: 100%;
-    
-    &__page {
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/mixins' as *;
 
+
+.home {
+    display: flex;
+    width: 100%;
+    padding: 2rem 8rem;
+
+    &__left {
+        padding-top: 5rem;
+        margin-right: 1rem;
+    }
+
+    &__find {
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+
+    &__summary {
+        width: 55%;
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    &__popular {
+        font-weight: 700;
+        text-align: center;
+        width: 50%;
+        margin-left: 6rem;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        list-style-type: none;
+        text-align: center;
+        width: 9rem;
+        padding: 1rem;
+        border: 1px solid $primary-grey;
+        border-radius: 8px;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__label {
+        margin-bottom: 1rem;
+    }
+
+    &__input {
+        padding: 0.5rem 0;
+        width: 19rem;
+        font-family: 'Avenir Next';
+        border: 1px solid $primary-grey;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        resize: none;
+        outline: none;
+        text-indent: 1rem;
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        background-size: 1.5rem;
+        background-image: url('../../assets/images/chevron-down.png');
+
+        &:focus {
+            border: 2px solid $primary-blue;
+        }
+    }
+
+    &__button {
+        font-family: 'Avenir Next';
+        border: none;
+        border-radius: 8px;
+        background-color: $primary-red;
+        color: white;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        height: 2.25rem;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: $primary-black;
+        }
     }
 }
