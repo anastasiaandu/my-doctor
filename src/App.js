@@ -1,14 +1,12 @@
 import "./App.scss";
 import PageHeader from "./components/PageHeader/PageHeader";
-import InputComponent from "./components/InputComponent/InputComponent";
+import PageFooter from "./components/PageFooter/PageFooter";
 
 function App() {
   return (
     <div>
       <PageHeader />
-      {/* NAVBAR */}
-      <InputComponent />
-      {/* FOOTER */}
+      <PageFooter />
     </div>
   );
 }
