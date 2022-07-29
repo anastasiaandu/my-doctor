@@ -1,10 +1,11 @@
 import DoctorCardComponent from "./components/DoctorCardComponent/DoctorCardComponent";
+import InputComponent from "./components/InputComponent/InputComponent";
 
 function App() {
   return (
     <div>
-      My Doctor Changed
-      <DoctorCardComponent />
+      {/* <DoctorCardComponent /> */}
+      <InputComponent />
     </div>
   );
 }
