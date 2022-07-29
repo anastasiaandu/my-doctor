@@ -10,7 +10,7 @@ function DoctorCardComponent(props) {
         <div className="doctorcard">
           <div>
             <img
-              src={props.picture || doctorImg}
+              src={props.doctorInfo.picture}
               className="doctorcard--img"
               alt="doctor"
             />
@@ -18,9 +18,11 @@ function DoctorCardComponent(props) {
 
           <div className="doctorcard--right">
             <div>
-              <p className="doctorcard--name">{props.name || "Doctor Name"} </p>
+              <p className="doctorcard--name">
+                {props.doctorInfo.name || "Doctor Name"}{" "}
+              </p>
               <p className="doctorcard--location ">
-                {props.address || "Doctor Address"}
+                {props.doctorInfo.address || "Doctor Address"}
               </p>
             </div>
           </div>
