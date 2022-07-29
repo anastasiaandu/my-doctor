@@ -17,8 +17,10 @@ function DoctorCardComponent(props) {
 
         <div className="doctorcard--right">
           <div>
-            <p className="doctorcard--name">${props.name} </p>
-            <p className="doctorcard--location ">${props.address}</p>
+            <p className="doctorcard--name">{props.name || "Doctor Name"} </p>
+            <p className="doctorcard--location ">
+              {props.address || "Doctor Address"}
+            </p>
           </div>
         </div>
       </div>
