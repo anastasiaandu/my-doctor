@@ -1,6 +1,6 @@
 import './App.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header/Header';
+import PageHeader from './components/PageHeader/PageHeader';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage/HomePage';
 import FindDoctorPage from './pages/FindDoctorPage/FindDoctorPage';
@@ -8,7 +8,7 @@ import FindDoctorPage from './pages/FindDoctorPage/FindDoctorPage';
 function App() {
   return (
     <Router>
-      <Header />
+      <PageHeader />
       <Switch>
         <Route path='/' exact component={HomePage} />
         <Route path='/upload' component={FindDoctorPage}/>

@@ -1,0 +1,46 @@
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/mixins' as *;
+
+.component{
+    border-bottom: $primary-grey 1px solid;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 3vh 0;
+
+    &__logo {
+        margin: 0;
+    }
+
+    &__pages {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1vh;
+
+        &-link {
+            @include link;
+        }
+    }
+
+    &__login {
+        padding-top: 1vh;
+        display: flex;
+        flex-direction: row;
+
+        &-spacer {
+            margin: 0 .5em 0 .5em;
+        }
+
+        &-link {
+            @include link;
+        }
+    }
+}
