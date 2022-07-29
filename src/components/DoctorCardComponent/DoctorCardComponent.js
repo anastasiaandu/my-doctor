@@ -1,6 +1,4 @@
 import React from "react";
-
-import doctorImg from "../../assets/images/humberto-chavez-FVh_yqLR9eA-unsplash.jpg";
 import "./DoctorCardComponent.scss";
 
 function DoctorCardComponent(props) {

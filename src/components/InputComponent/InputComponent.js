@@ -33,7 +33,7 @@ class InputComponent extends Component {
   };
 
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.doctorList != prevState.doctorList) {
+    if (this.state.doctorList !== prevState.doctorList) {
       console.log("success");
     }
   }
