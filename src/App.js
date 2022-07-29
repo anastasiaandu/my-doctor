@@ -1,11 +1,5 @@
-import './App.css';
-
 function App() {
-  return (
-    <div>
-      My Doctor
-    </div>
-  );
+  return <div>My Doctor Changed</div>;
 }
 
 export default App;
