@@ -1,0 +1,26 @@
+doctors = [
+	{
+		name: "Dr one ",
+		address: "toronto",
+		language: "hebrew",
+		picture: "https://unsplash.com/photos/FVh_yqLR9eA"
+	},
+{
+		name: "Dr Two",
+		address: "waterloo",
+		language: "cantonese",
+		picture: "https://unsplash.com/photos/7bMdiIqz_J4"
+	},
+	{
+		name: "Dr Three" ,
+		address: "vaughan",
+		language: "punjabi",
+		picture: "https://unsplash.com/photos/pTrhfmj2jDA"
+	},
+	{
+		name: "Dr Four",
+		address: "markham",
+		language: "mandarin",
+		picture: "https://unsplash.com/photos/ZCztndOWdjs"
+	}
+];
