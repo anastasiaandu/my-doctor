@@ -48,6 +48,7 @@ class InputComponent extends Component {
               Enter your city:
             </label>
             <input
+              className="input__city"
               placeholder="enter city"
               onChange={this.handleInput}
               id="cityName"
@@ -56,7 +57,7 @@ class InputComponent extends Component {
             <label className="inputcomponent--input__label">
               what medical problem are you currently experinencing now?:
             </label>
-            <select>
+            <select className="input__city">
               <option value="abdominal-pain">abdominal pain</option>
               <option value="arthritis-pain">arthritis pain</option>
               <option selected value="general-visit">
@@ -68,7 +69,7 @@ class InputComponent extends Component {
             <label className="inputcomponent--input__label">
               additional support (wheel chair, hearing aids, visual aids):
             </label>
-            <select>
+            <select className="input__city">
               <option value="abdominal-pain">Wheel Chair</option>
               <option value="arthritis-pain">Hearing Aids</option>
               <option selected value="general-visit">

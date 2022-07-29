@@ -6,7 +6,7 @@ function DoctorCardComponent(props) {
     <>
       <div className="doctorcard__container">
         <div className="doctorcard">
-          <div>
+          <div className="doctor__image">
             <img
               src={props.doctorInfo.picture}
               className="doctorcard--img"

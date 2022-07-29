@@ -1,5 +1,7 @@
 .doctorcard__container{
     background-color: #3B3C93;
+    border-radius: 8px;
+    margin-top: 2rem;
 }
 
 
@@ -8,17 +10,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 8px;
     height: 5rem;
     padding: 0.5rem 0.5rem;
     margin: 1rem 1rem ;
     width: 90%;
+
     &--img{
         // width: 5rem;
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 4.5rem;
+        min-width: 6.5rem;
+        max-height: 3.5rem;
+        object-fit: cover;
         border-radius: 5px;
         margin: 0;
         padding: 0;
@@ -43,4 +48,10 @@
         padding: 0;
         margin: 0;
     }
+}
+
+.doctor__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

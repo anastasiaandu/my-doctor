@@ -1,8 +1,14 @@
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/mixins' as *;
+
+
 .inputcomponent {
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color: #D9D9D9;
+    padding: 2rem 8rem 11rem 6rem;
+    height: 80vh;
 
     &--submitbutton{
         width: 50%;
@@ -46,3 +52,55 @@
         }
     }
 }
+
+.input {
+    &__city {
+        padding: 0.5rem 0;
+        width: 100%;
+        font-family: 'Avenir Next';
+        border: 1px solid $primary-grey;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        resize: none;
+        outline: none;
+        text-indent: 1rem;
+    }
+}
+
+#cityName {
+    padding: 0.5rem 0;
+    width: 19rem;
+    font-family: 'Avenir Next';
+    border: 1px solid $primary-grey;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    resize: none;
+    outline: none;
+    text-indent: 1rem;
+    width: 100%;
+
+    &:focus {
+        border: 2px solid $primary-red;
+    }
+}
+
+.inputcomponent--submitbutton {
+    font-family: 'Avenir Next';
+    border: none;
+    border-radius: 8px;
+    background-color: $primary-red;
+    color: white;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    height: 2.25rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &:hover {
+        background-color: $primary-black;
+    }
+}
+
