@@ -1,12 +1,12 @@
-import './App.scss';
-import PageHeader from './components/PageHeader/PageHeader';
+import "./App.scss";
+import PageHeader from "./components/PageHeader/PageHeader";
 
 function App() {
   return (
-  <div>
-    <PageHeader />
-  </div>
-  )
+    <div>
+      <PageHeader />
+    </div>
+  );
 }
 
 export default App;
