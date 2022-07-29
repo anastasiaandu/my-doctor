@@ -15,6 +15,8 @@ My Doctor helps you find a doctor and book an appointment based on your abilitie
 ![image](./screenshots/home.JPG)
 ### - Find Doctor Page
 ![image](./screenshots/doctor.JPG)
+### - Doctors Page
+![image](./screenshots/doctors.JPG)
 
 
 Project completed in under 24 hrs. 
