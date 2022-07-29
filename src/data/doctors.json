@@ -1,26 +1,36 @@
 [
   {
+<<<<<<< HEAD
     "id": 1,
+=======
+>>>>>>> develop
     "name": "Doctor Yousaf",
     "address": "toronto",
     "language": "hebrew",
     "picture": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
   },
   {
+<<<<<<< HEAD
     "id": 2,
+=======
+>>>>>>> develop
     "name": "Doctor Chavez",
     "address": "waterloo",
     "language": "spanish",
     "picture": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
   },
   {
+<<<<<<< HEAD
     "id": 3,
+=======
+>>>>>>> develop
     "name": "Dr Rodrigues",
     "address": "vaughan",
     "language": "punjabi",
     "picture": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
   },
   {
+<<<<<<< HEAD
     "id": 4,
     "name": "Dr Ramirez",
     "address": "markham",
@@ -29,20 +39,34 @@
   },
   {
     "id": 5,
+=======
+    "name": "Dr Ramirez",
+    "address": "markham",
+    "language": "mandarin",
+    "picture": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+>>>>>>> develop
     "name": "Doctor Fei",
     "address": "vaughan",
     "language": "chinese",
     "picture": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
   },
   {
+<<<<<<< HEAD
     "id": 6,
+=======
+>>>>>>> develop
     "name": "Doctor Ahuja",
     "address": "markham",
     "language": "hindi",
     "picture": "https://www.10x10studios.com/cms/wp-content/uploads/2020/07/healthcare-provider-portrait.jpg"
   },
   {
+<<<<<<< HEAD
     "id": 7,
+=======
+>>>>>>> develop
     "name": "Doctor Yang",
     "address": "toronto",
     "language": "korean",
