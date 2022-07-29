@@ -1,0 +1,48 @@
+.inputcomponent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #D9D9D9;
+
+    &--submitbutton{
+        width: 50%;
+        background-color: #E54042;
+        border: none;
+        height: 2rem;
+        border-radius: 8px;
+        color: white;
+        font-size: 1rem;
+        margin: 1rem 0 ;
+
+        &__container{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+    }
+
+
+    &--left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 2rem;
+    }
+
+    &--right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    &--input {
+        display: flex;
+        flex-direction: column;
+
+        &__label {
+            text-transform: capitalize;
+            padding: 0.5rem 0;
+        }
+    }
+}
