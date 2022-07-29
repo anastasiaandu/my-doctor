@@ -11,7 +11,7 @@ function App() {
       <PageHeader />
       <Switch>
         <Route path='/' exact component={HomePage} />
-        <Route path='/upload' component={FindDoctorPage}/>
+        <Route path='/doctor' component={FindDoctorPage}/>
       </Switch>
       <PageFooter />
     </Router>

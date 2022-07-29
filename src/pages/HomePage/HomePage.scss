@@ -47,7 +47,6 @@
         font-weight: 700;
         text-align: center;
         width: 50%;
-        // margin-left: 6rem;
         color: white;
     }
 
@@ -117,5 +116,10 @@
         &:hover {
             background-color: $primary-black;
         }
+    }
+
+    &__continue {
+        text-decoration: none;
+        color: white;
     }
 }

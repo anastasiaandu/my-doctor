@@ -1,5 +1,6 @@
 import './HomePage.scss';
 import underline from '../../assets/images/Vector.png'
+import { Link } from 'react-router-dom';
 // import homePage from '../../assets/images/home.png';
 
 
@@ -40,7 +41,7 @@ const HomePage = () => {
                             className='home__input'
                             name="homeInput" 
                         />
-                        <button className='home__button'>Continue</button>
+                        <button className='home__button'><Link to='/doctor' className='home__continue'>Continue</Link></button>
                     </form>
                 </div>
             </main>
