@@ -1,4 +1,5 @@
 import './HomePage.scss';
+import underline from '../../assets/images/Vector.png'
 // import homePage from '../../assets/images/home.png';
 
 
@@ -9,8 +10,9 @@ const HomePage = () => {
                 {/* <img src={homePage} alt='home page' className='home__page'/> */}
                 <div className='home__left'>
                     <h1 className='home__find'>
-                        Find a doctor who speaks your language
+                        Find a doctor who speaks <span className='home__language'>your language</span>
                     </h1>
+                    <img src={underline} alt='underline' className='home__underline'/>
                     <p className='home__summary'>
                         We find doctors who speak your languages.
                         With this website, you can connect with the right doctor for your needs.
@@ -18,7 +20,7 @@ const HomePage = () => {
                 </div>
                 <div className='home__right'>
                     <p className='home__popular'>
-                        Select from polupar languages:
+                        Select from popular languages:
                     </p>
                     <ul className='home__list'>
                         <li className='home__item'>English</li>
@@ -38,7 +40,7 @@ const HomePage = () => {
                             className='home__input'
                             name="homeInput" 
                         />
-                        <button className='home__button'>continue</button>
+                        <button className='home__button'>Continue</button>
                     </form>
                 </div>
             </main>
