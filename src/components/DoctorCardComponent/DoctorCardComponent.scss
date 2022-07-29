@@ -1,15 +1,24 @@
+.doctorcard__container{
+    background-color: #3B3C93;
+}
+
+
 .doctorcard{
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: fit-content;
     border-radius: 3px;
     height: 5rem;
     padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem ;
+    width: 90%;
     &--img{
         // width: 5rem;
-        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 4.5rem;
         border-radius: 5px;
         margin: 0;
         padding: 0;

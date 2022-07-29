@@ -4,6 +4,8 @@ import DoctorCardComponent from "../DoctorCardComponent/DoctorCardComponent";
 import doctorJson from "../../data/doctors.json";
 import "./InputComponent.scss";
 
+function findDoctor() {}
+
 function InputComponent() {
   return (
     <div className="inputcomponent">
@@ -45,6 +47,9 @@ function InputComponent() {
         </form>
       </div>
       <div className="inputcomponent--right">
+        <DoctorCardComponent />
+        <DoctorCardComponent />
+        <DoctorCardComponent />
         <DoctorCardComponent />
       </div>
     </div>
